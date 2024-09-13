@@ -1,0 +1,129 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 16, 2023, 10:31:00 AM
+    Author     : azzam
+*/
+
+/* Light mode styles */
+body {
+    zoom: 80%;
+}
+.card {
+    background-color: white;
+}
+th {
+    background-color: #CCC;
+}
+td:hover {
+    cursor: pointer;
+}
+#table_attendance {
+    font-size: 12px;
+}
+.card-body {
+    min-height: 705px;
+}
+#add_attendance {
+    cursor: pointer;
+    padding: 10px;
+    color: #8915e1;
+    font-weight: 400;
+}
+.tab-content {
+    width: 100%
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+.dark-mode .card {
+    background-color: #222;
+}
+.dark-mode th {
+    background-color: #444;
+}
+.dark-mode td:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+.dark-mode #table_attendance {
+    color: #fff;
+}
+.dark-mode .card-body {
+    min-height: 705px;
+    background-color: #222;
+}
+.dark-mode #add_attendance {
+    color: #8915e1;
+}
+.dark-mode .tab-content {
+    color: #fff;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 400px) {
+    body {
+        zoom: 80%;
+    }
+    .card {
+        background-color: white;
+    }
+    th {
+        background-color: #CCC;
+    }
+    td:hover {
+        cursor: pointer;
+    }
+    .card-body {
+        min-height: 620px;
+    }
+    #add_attendance {
+        cursor: pointer;
+        padding: 10px;
+        color: #8915e1;
+        font-weight: 400;
+    }
+    .tab-content {
+        width: 100%
+    }
+    table {
+        margin: 0 auto;
+        width: 100%;
+        clear: both;
+        border-collapse: collapse;
+        table-layout: fixed;
+        word-wrap:break-word;
+    }
+    #table_attendance {
+        font-size: 12px;
+    }
+    /* Dark mode styles for small screens */
+    .dark-mode th {
+        background-color: #444;
+    }
+    .dark-mode td:hover {
+        cursor: pointer;
+        background-color: #444;
+    }
+    .dark-mode .card-body {
+        min-height: 620px;
+        background-color: #222;
+    }
+    .dark-mode #add_attendance {
+        color: #8915e1;
+    }
+    .dark-mode .tab-content {
+        color: #fff;
+    }
+}
+
+
+
+
+
+
